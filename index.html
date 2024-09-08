@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sage doctor</title>
+    
+    <link rel="icon" type="image/x-icon" href="https://64.media.tumblr.com/28dbac4007f82111476fc3f98f2bfff0/f8ceb573d599ef82-40/s1280x1920/2a4de5fe2ab93b138e02b35f6bd076aa7d54799d.pnj">
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="busy_base2.css" rel="stylesheet" type="text/css" media="all">
+  
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+    
+    <body oncontextmenu="return false;" >
+    
+<style>
+
+
+body {
+  margin: 0;
+  }
+  
+/*Everything goes inside here.*/
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  }
+  
+.sidebar-img, .footer, .title, .links, .box {
+  margin-top: 25px;
+  }
+  
+.title, .links, .footer {
+  text-align: center;
+  }
+  
+/*Navigation links.*/
+.links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+.links li {
+  display: inline-block;
+  }
+
+/*Some fancy code for fun, to add special characters around the navigation links. Change content to "" if you don't want these.*/
+.links li:before {
+  content: "h";
+  }
+  
+.links li:after {
+  content: "h";
+  }
+  
+.links .last:after {
+  content: "ã€";
+  }
+  
+.links li:before, .links li:after {
+  letter-spacing: 0.1em;
+  }
+  
+/*Basic box code that is used for all content boxes on the page.*/
+.box {
+  border: 1px solid black;
+  padding: 0.5em 1em;
+  }
+  
+/*Goes inside the box class. Not given any style by default, but can be used for stuff like fancy borders.*/
+.inner {
+  
+  }
+  
+/*Prevent image overflow.*/
+.box img, .sidebar img {
+  max-width: 100%;
+  height: auto;
+  }
+  
+/*Wrapper for the sidebar.*/
+.sidebar {
+  width: 200px;
+  float: left;
+  }
+  
+/*Container for the sidebar image.*/
+.sidebar-image {
+  border: 0px solid black;
+  }
+  
+/*Remove extra padding line at the bottom of the image.*/
+.sidebar-image img {
+  display: block;
+  }
+  
+/*This is where the title, navbar, and main content all go.*/
+.main-wrapper {
+  margin-left: 250px;
+  }
+  
+/*Two columns by default. The "single-column" class can be added to make it one column.*/
+.main {
+  columns: 2;
+  column-gap: 25px;
+  }
+  
+/*Make sure boxes don't spread over multiple columns.*/
+.main .box {
+  display: inline-block;
+  }
+  
+.single-column {
+  columns: 1;
+  }
+  
+.footer {
+  margin-bottom: 25px;
+  }
+  
+  
+  
+  
+  
+@media(max-width:915px) {
+  .wrapper {    
+    width: 80%;
+    }
+    
+  .main-wrapper {
+    width: calc(100% - 225px);
+    }
+  }
+  
+@media (orientation: portrait), (max-width: 480px) {
+  .wrapper {
+    width: 100%;
+    }
+  
+  .main-wrapper, .sidebar, .footer {
+    margin: 0 auto;
+    width: 90%;
+    }
+  
+  .sidebar {
+    float: none;
+    display: block;
+    }
+ 
+  .sidebar-image {
+    margin: 0 auto;
+    width: 33%;
+    margin-top:25px;
+    }
+
+  .sidebar .sidebar-image img {
+    width: 100%;
+    }
+    
+  .footer {
+    margin-bottom: 25px;
+    }
+  
+  }
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
+body {
+     background:#28483e;
+  background-size: cover;
+  font-family: "Readex Pro", Open Sans, sans-serif;
+  }
+
+.box {
+
+  background: #2e5247;
+  color: white;
+  border: 1px solid #507249;
+  padding: 0.75em 1.25em;
+  }
+  
+a, .links li:before, .links li:after, .links .last {
+  color: #b8d367;
+  }
+  
+.sidebar-image img {
+  border-radius: 0.175em;
+  }
+
+
+/*Alternate style of spacers for nav links. Replace with "" for no spacer characters.*/  
+.links li:before {
+  content: " ";
+  }
+
+.links li:after {
+  content: " â¬ª ";
+  }
+
+.links .last:after {
+  content: " ";
+  }
+
+/*Increase gap between automatic spacers.*/
+.links li:before, .links li:after {
+  letter-spacing: 0.375em;
+  }
+
+</style>
+
+<body>
+
+
+ <div class=wrapper>
+  
+  
+    <div class=sidebar>
+    <div class="sidebar-image"><div class=inner><img src="https://64.media.tumblr.com/05cbf347c13ccbec6072ddba5a39199b/1c1c7afe8c8972df-b6/s500x750/5ceb931416b733223625bd7e0a9cc47c5f0d56c1.pnj"></div></div> 
+    <div class=box><div class=inner> 
+    
+    <p><h2> Sage Doctor Glossary: </h2></p>
+Studied Holistic & Chinese medicine, with extensive knowledge in occult sciences, including mysticism, Asian folklore, and the realms of Demons, Yokai, Spirits and Jinns from various religions and cultures. <br><br>
+
+Some illnesses have origins in the unseen or the unknown.
+
+    <p><h2> Notes </h2></p>
+<p> If you do not believe in alternative medicine, then do not read this.</p>
+<p>Practitioner's glossary, frequently updated </p> 
+
+<p><h2>Links</h2></p>
+ 
+             <p><a href="https://sagedoctor.neocities.org/Interview"> Interview with the Practitioner </a></p>
+             
+            <p><a href="https://sagedoctor.neocities.org/ChineseFive-ElementMusicTherapy"> Chinese Five-Element Music Therapy </a></p>
+           <p><a href="https://sagedoctor.neocities.org/HeatTherapy"> (Fire) Heat Therapy </a></p>
+                    <p><a href="https://sagedoctor.neocities.org/TheUnderworld"> The Underworld </a></p>
+             
+         
+
+    
+    
+</div></div>
+    
+        
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    <div class=main-wrapper> 
+    
+    
+      
+    <div class=title>
+    
+    
+        <div class=box><div class=inner> <img style="border:0px solid #bcd0c7; " src="https://i.pinimg.com/originals/5e/40/39/5e40399cb91576eb555c5c453fde9572.gif"  width="100%" />  </div></div>
+      </div>
+    
+
+      <div class="main single-column">
+      <div class=box><div class=inner>
+     
+
+
+
+<h2> <i>Hot & Cold (Basics Only)</i></h2>     
+
+
+
+
+    <details class="group py-1 text-lg">
+      <summary class="flex cursor-pointer flex-row items-center justify-between py-1 font-semibold text-gray-800 marker:[font-size:0px] ">
+Daily Health Practices: 
+      </summary>
+      <p class="text-gray-500">
+      
+      
+     <h3>Black Seeds:</h3>
+
+<p><li>Benefits: Boosts the immune system, protects against the evil eye & Black Magic.</li></p>
+<p><li>Dosage: Consume a small amount every morning (5-10 seeds). If necessary (3-6 seeds) 3 times a day. Use Black seed oil for hair loss against evil eye.</li></p>
+
+<h3>Hot Water:</h3>
+
+<p><li>Benefits: Aids digestion and preps the body for the day.</li></p>
+<p><li>Usage: Drink hot or warm water every morning before consuming black seeds.</li>
+</p> 
+      
+      </p>
+    </details>
+
+
+<img style="border:0px solid #bcd0c7; " src="https://64.media.tumblr.com/f0c18941348b84103d3415184bf38848/f7ec0cffe6574c86-c3/s2048x3072/6206d9d13b3811559c4d1d50a0ea6fde9279875d.pnj"  width="100%" />
+
+
+    <details class="group py-1 text-lg">
+      <summary class="flex cursor-pointer flex-row items-center justify-between py-1 font-semibold text-gray-800 marker:[font-size:0px]">
+  Seasonal & Situational Remedies
+      </summary>
+      <p class="text-gray-500">
+      
+      <h3>Chamomile & Lavender Tea:</h3>
+<p><li> Benefits: Helps with anxiety, stress, and depression. </li></p>
+<p><li> Best for: Nighttime relaxation, particularly during winter seasons. </li></p>
+
+<h3>Hot Lemon, Ginger & Honey Tea:</h3>
+<p><li> Benefits: Fights colds and strengthens the immune system. </li></p>
+<p><li> Best for: Cold winter seasons. </li></p>
+
+<h3>Citrus Fruit:</h3>
+<p><li> Benefits: Keeps you warm in winter and protects the immune system. </li></p>
+<p><li> Usage: Incorporate into your diet during colder months. </li></p>
+
+      
+     </p>
+    </details>
+    
+
+
+<img style="border:0px solid #bcd0c7; " src="https://64.media.tumblr.com/f0c18941348b84103d3415184bf38848/f7ec0cffe6574c86-c3/s2048x3072/6206d9d13b3811559c4d1d50a0ea6fde9279875d.pnj"  width="100%" />
+
+
+
+    <details class="group py-1 text-lg">
+      <summary class="flex cursor-pointer flex-row items-center justify-between py-1 font-semibold text-gray-800 marker:[font-size:0px]">
+      Powerful Health Remedies:
+      </summary>
+      <p class="text-gray-500">
+          
+          
+       <h3>Dates:</h3>
+<p><li> Benefits: Supports all body systems, expels demons, and wards off evil jinns.</li></p>
+<p><li> Usage: Regular consumption is recommended.</li></p>
+
+<h3>Black Honey:</h3>
+<p><li> Usage: Benefits: Soothes stomach aches & Digestive Benefits. Cures Constipation.</li></p>
+<p><li> Dosage: Drink a big spoonful after meals.</li></p>
+
+<h3>Turmeric:</h3>
+<p><li>Benefits: Treats mouth ulcers and boosts the immune system.</li></p>
+<p><li>Usage: Rub plain turmeric on gums and tongue.</li></p>
+
+<h3>Yoghurt & Milk:</h3>
+<p><li>Benefits: Cooling summer drink, prevents ulcers, treats diarrhea, and aids digestion.</li></p>
+<p><li>Best for: Hot weather and digestive issues. Keeps you Hydrated.</li></p>
+<h3>Basil Tea:</h3>
+<p><li> Benefits: Strengthens the immune system and aids in unwinding.</li></p>
+<p><li> Best for: Regular consumption to maintain overall health.</li></p>   
+          
+          
+      </p>
+    </details>
+
+
+
+
+
+<img style="border:0px solid #bcd0c7; " src="https://64.media.tumblr.com/f0c18941348b84103d3415184bf38848/f7ec0cffe6574c86-c3/s2048x3072/6206d9d13b3811559c4d1d50a0ea6fde9279875d.pnj"  width="100%" />
+
+
+
+    <details class="group py-1 text-lg">
+      <summary class="flex cursor-pointer flex-row items-center justify-between py-1 font-semibold text-gray-800 marker:[font-size:0px]">
+     Healing with sounds:
+      </summary>
+      <p class="text-gray-500">
+      
+      
+<p> <u>Vibrations & Sounds:</u>
+Listening to specific vibrations and sounds can cleanse your body of negative energy and harmful information. These sounds rejuvenate your cells and awaken your inner spirit.  </p>
+
+<p><u>Musical Instruments & Rhythms: </u>
+Engage with instrumental sounds that uplifts and heals. Be mindful to avoid negative or toxic rhythms, as they can disrupt your body's natural harmony, leading to mental health issues and nightmares. </p>
+
+<p><u>Nature's Sounds: </u>
+The purest vibrations come from the sounds of nature. These sounds promote healing, grounding, and a deep connection to the natural world. </p>
+
+<p><u>Quranic Healing:</u> In Islamic belief, the Quran is considered a source of profound healing, offering solace to the heart and revitalizing the body at a cellular level. Specific verses are believed to expel evil Jinn, protect against the evil eye, and bring about physical and spiritual healing.</p>
+
+      
+     </p>
+    </details>
+    
+
+
+
+<img style="border:0px solid #bcd0c7; " src="https://64.media.tumblr.com/f0c18941348b84103d3415184bf38848/f7ec0cffe6574c86-c3/s2048x3072/6206d9d13b3811559c4d1d50a0ea6fde9279875d.pnj"  width="100%" />
+
+
+
+
+    <details class="group py-1 text-lg">
+      <summary class="flex cursor-pointer flex-row items-center justify-between py-1 font-semibold text-gray-800 marker:[font-size:0px]">
+     Elemental Healing:
+
+      </summary>
+      <p class="text-gray-500">
+          
+   <p> <u>Water (Hydrotherapy): </u> Pure water is essential for cleansing and rejuvenation. Regular baths with specific essential oils can enhance the therapeutic effects, promoting relaxation and healing. Ice baths are good for heart circulation and skin.</p>
+
+<p> <u>Earth (Grounding): </u>
+The human body is composed of elements found in sand and mud. To stay connected with the earth, walk barefoot daily for at least 15 minutes, preferably in the sun. Embrace sweating as a natural way to detoxify and balance your body. </p>
+
+<p><u>Wind/Air (Breath of Life):</u>
+When the winds blow, step outside and breathe deeply to revitalize your body with fresh air. Be cautious of air conditioners, as they emit positive ions that can disrupt your well-being. Evil Spirits can travel through positive ions.</p>
+
+<p> <u>Fire (Heat Therapy): </u>
+In cold weather, stay close to the warmth of a fire. Traditional heat therapy methods, such as those in Chinese medicine, can treat certain ailments and help regulate body temperature. Keep a candle lit to maintain a gentle, constant source of warmth and energy.</p>       
+          
+      </p>
+    </details>
+    
+
+
+
+<img style="border:0px solid #bcd0c7; " src="https://64.media.tumblr.com/f0c18941348b84103d3415184bf38848/f7ec0cffe6574c86-c3/s2048x3072/6206d9d13b3811559c4d1d50a0ea6fde9279875d.pnj"  width="100%" />
+
+
+      </div></div>
+      
+      
+     
+        <div class=box><div class=inner> <img style="border:0px solid #bcd0c7; " src="https://64.media.tumblr.com/79ee0542806555693e5596f670336a77/tumblr_phzt719x8A1ql8ucuo2_640.gifv"  width="100%" />  </div></div>
+      </div>
+       
+      
+         </div></div></div>
+         
+         
+
+
+      
+         
+     
+    </div>
+    
+    </div>
+
+
+</body>
+</html>
